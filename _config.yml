@@ -1,30 +1,35 @@
 # Site settings
-title: taeri's blog # site title
-description: >- # site description
+title: taeri's blog
+description: >-
   프론트엔드 개발자 taeri의 기술 블로그입니다.
-lang: ko # default lang
-timezone: Asia/Seoul # set your timezone
-image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.comtaerikor/jekyll-blog # site repo [optional]
-mode: dark # default theme "dark" | "light"
+lang: ko
+timezone: Asia/Seoul
+image: /assets/img/ogp.png
+repo: https://github.com/taerikor/jekyll-blog
+mode: dark
 
 # Profile settings
 author:
-  name: taeri # author name
-  bio: >- # tell to the world
-    프론트엔드 개발자입니다.
-  username: taeri # general username
-  github: taerikor # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  name: taeri
+  bio: >-
+    안녕하세요!<br>
+    개발을 하며 겪었던 경험과 고민,<br>
+    그리고 생각들을 글로 남깁니다.<br>
+    오늘도 의미 있는 하루 되시길 바랍니다.
+  username: taeri
+  github: taerikor
+  twitter:
+  facebook:
+  email: yakkitaeri@gmail.com
+  avatar: /assets/img/avatar.jpg
 
 # URL settings
-url: "https://klise.now.sh" #
-baseurl:
+url: "https://blog-taeri.vercel.app"
+baseurl: ""
 permalink: /:title/
-google_analytics: # leave it blank if not wish
+
+# Analytics (optional)
+google_analytics:
 fb_appid:
 
 # Collection setting
@@ -46,22 +51,10 @@ defaults:
       layout: post
       comments: false
 
-# Jekyll Compose default front matter
-jekyll_compose:
-  post_default_front_matter:
-    modified:
-    tags: []
-    description:
-  draft_default_front_matter:
-    modified:
-    tags: []
-    description:
-
 # Homepage limit posts
 number_of_posts: 5
 
 # Build settings
-# theme: klise
 sass:
   style: compressed
 
